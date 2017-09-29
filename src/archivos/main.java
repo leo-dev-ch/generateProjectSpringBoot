@@ -50,7 +50,7 @@ public class main extends javax.swing.JFrame {
 
         jLabel1.setText("Dir. Origen");
 
-        jtRaiz.setText("/media/lgaray/Datos/Desarrollo/dataSig/ventasWeb/src/main/java/com/datasig/ventas");
+        jtRaiz.setText("/ventasWeb/src/main/java/com/example/ventas");
 
         jLabel2.setText("Modelo");
 
@@ -58,7 +58,7 @@ public class main extends javax.swing.JFrame {
 
         jLabel3.setText("Packege");
 
-        jtPackege.setText("com.datasig.ventasweb");
+        jtPackege.setText("com.example.ventasweb");
 
         jButton1.setText("Procesar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -76,7 +76,12 @@ public class main extends javax.swing.JFrame {
 
         jLabel4.setText("Dir. Destino");
 
-        jtDestino.setText("/media/lgaray/Datos/Desarrollo/dataSig/ventasWeb/src/main/java/com/datasig/ventasweb");
+        jtDestino.setText("/Desarrollo/example/ventasWeb/src/main/java/com/example/ventasweb");
+        jtDestino.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtDestinoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -166,6 +171,10 @@ public class main extends javax.swing.JFrame {
             // TODO add your handling code here:
             this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jtDestinoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtDestinoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtDestinoActionPerformed
 
     /**
      * @param args the command line arguments

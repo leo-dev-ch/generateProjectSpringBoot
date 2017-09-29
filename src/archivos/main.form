@@ -105,7 +105,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jtRaiz">
       <Properties>
-        <Property name="text" type="java.lang.String" value="/media/lgaray/Datos/Desarrollo/dataSig/ventasWeb/src/main/java/com/datasig/ventas"/>
+        <Property name="text" type="java.lang.String" value="/ventasWeb/src/main/java/com/example/ventas"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
@@ -125,7 +125,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jtPackege">
       <Properties>
-        <Property name="text" type="java.lang.String" value="com.datasig.ventasweb"/>
+        <Property name="text" type="java.lang.String" value="com.example.ventasweb"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
@@ -151,8 +151,11 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jtDestino">
       <Properties>
-        <Property name="text" type="java.lang.String" value="/media/lgaray/Datos/Desarrollo/dataSig/ventasWeb/src/main/java/com/datasig/ventasweb"/>
+        <Property name="text" type="java.lang.String" value="/Desarrollo/example/ventasWeb/src/main/java/com/example/ventasweb"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtDestinoActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
